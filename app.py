@@ -59,7 +59,7 @@ def preprocess_image(file_storage):
     img = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 
     if img is None:
-        raise ValueError("Lỗi đọc ảnh")
+        raise ValueError("Error")
 
     feat = extract_features_bow(img)
     feat = feat.reshape(1, -1)
