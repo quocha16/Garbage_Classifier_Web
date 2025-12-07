@@ -29,16 +29,16 @@ This project moves away from "Black Box" deep learning to use explicit feature e
 The model utilizes a labeled dataset containing images across these categories:
 <pre>
 garbage-dataset/
-              trash/
-              shoes/
-              plastic/
-              paper/ 
-              metal/ 
-              glass/ 
-              clothes/
-              cardboard/
-              biological/
-              battery/
+  trash/
+  shoes/
+  plastic/
+  paper/ 
+  metal/ 
+  glass/ 
+  clothes/
+  cardboard/
+  biological/
+  battery/
  </pre>
 ## Limitations
 
