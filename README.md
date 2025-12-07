@@ -11,7 +11,8 @@ The project helps users identify the disposal category of waste items and how to
 **Current Performance:**
 - **Training Accuracy:** ~65%
 - **Testing Accuracy:** ~54%
-> ***Note on Development:** This project adopts a modern AI-augmented development workflow. While the algorithms and model pipeline were manually implemented for educational purposes, to prioritize the core Machine Learning algorithms, the web interface was developed using rapid prototyping techniques.*
+> ***Note on Development:** This project adopts a modern AI-augmented development workflow. While the algorithms and model pipeline were manually implemented for educational purposes, to prioritize the core Machine Learning algorithms, the web interface was developed using rapid prototyping techniques.
+Web link in Web Interface Usage section*
 
 ## Features
 
