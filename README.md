@@ -64,7 +64,7 @@ To run this project locally, ensure you have Python installed.
 1.  **Clone the repository:**
    <pre>
     ```bash
-    git clone [https://github.com/your-username/garbage-classifier.git](https://github.com/your-username/garbage-classifier.git)
+    git clone https://github.com/quocha16/garbage-classifier.git
     cd garbage-classifier
     ```
     </pre>
