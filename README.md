@@ -25,6 +25,16 @@ This project moves away from "Black Box" deep learning to use explicit feature e
 - **Support Vector Machine (SVM):** The main classifier that categorizes the waste based on the processed feature vectors.
 
 ## Data Structure
+The link to the dataset can be found in `dataset-source.txt`. Alternatively, you can download the latest version automatically using the code below:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sumn2u/garbage-classification-v2")
+
+print("Path to dataset files:", path)
+```
 
 The model utilizes a labeled dataset containing images across these categories:
 <pre>
@@ -62,25 +72,24 @@ Given the use of classical ML techniques on a complex dataset, the current accur
 To run this project locally, ensure you have Python installed.
 
 1.  **Clone the repository:**
-   <pre>
+
     ```bash
     git clone https://github.com/quocha16/garbage-classifier.git
     cd garbage-classifier
     ```
-    </pre>
+    
 3.  **Install dependencies:**
-  <pre>
+
     ```bash
     pip install -r requirements.txt
     ```
- </pre>
+  
 3.  **Run the application:**
-   <pre>
+
     ```bash
     python app.py
     ```
-  </pre>
-
+    
 ## License
 
 This project is licensed under the **MIT License**.
