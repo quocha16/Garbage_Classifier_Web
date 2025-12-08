@@ -26,16 +26,7 @@ This project moves away from "Black Box" deep learning to use explicit feature e
 - **Support Vector Machine (SVM):** The main classifier that categorizes the waste based on the processed feature vectors.
 
 ## Data Structure
-The link to the dataset can be found in `dataset-source.txt`. Alternatively, you can download the latest version automatically using the code below:
-
-```python
-import kagglehub
-
-# Download latest version
-path = kagglehub.dataset_download("sumn2u/garbage-classification-v2")
-
-print("Path to dataset files:", path)
-```
+The link to the dataset can be found in `dataset-source.txt`.
 
 The model utilizes a labeled dataset containing images across these categories:
 <pre>
@@ -51,6 +42,7 @@ garbage-dataset/
   biological/
   battery/
  </pre>
+ 
 ## Limitations
 
 Given the use of classical ML techniques on a complex dataset, the current accuracy reflects the challenges of the approach:
