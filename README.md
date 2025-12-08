@@ -49,7 +49,7 @@ Given the use of classical ML techniques on a complex dataset, the current accur
 1.  **Low Accuracy:** The model currently achieves ~54% on unseen data, indicating room for improvement in feature engineering.
 2.  **Background Sensitivity:** The algorithms are sensitive to cluttered backgrounds and lighting variations.
 3.  **Feature Limit:** Hand-crafted features (Color Histograms, BoW) may not capture high-level semantic details as effectively as CNNs.
-4.  **Data Limit:** The model is strictly limited to classifying items into the specific categories defined in the training dataset. It does not perform object detection (to locate the object) and **cannot distinguish between "trash" and "non-trash" objects**. If an undefined item is uploaded, the model will force a prediction into one of the known classes based on mathematical probability.
+4.  **Algorithm Limit:** The model is strictly limited to classifying items into the specific categories defined in the training dataset. It does not perform object detection (to locate the object) and **cannot distinguish between "trash" and "non-trash" objects**. If an undefined item is uploaded, the model will force a prediction into one of the known classes based on mathematical probability.
 
 ## Web Interface Usage
 
